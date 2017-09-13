@@ -1,0 +1,232 @@
+.head{
+	height: 107px;
+	padding-top: 12px;
+}
+.search_box{
+	margin-left: 56px;
+	margin-top: 18px;
+	border: 1px solid #f70801;
+	width: 345px;
+	height: 36px;
+	position: relative;
+}
+.search_box input{
+	border: none;
+	width: 300px;
+	padding-left: 10px;
+	height: 36px;
+	color: #666;
+}
+.search_box .search{
+	height: 38px;
+	position: absolute;
+	width: 80px;
+	height: 38px;
+	right: -80px;
+	color: #fff;
+	line-height: 38px;
+	text-align: center;
+	background: #f70801;
+	top: -1px;
+	cursor: pointer;
+	font-size: 15px;
+}
+#box{
+	position: absolute;
+	z-index: 100;
+	width: 300px;
+	border: 1px solid #d4d4d4;
+	display: none;
+	border-top: none;
+	background: #fff;
+	top: 37px;
+}
+#box li{
+	line-height: 20px;
+	height: 20px;
+	padding-left: 8px;
+}
+.my_shopcar{
+	width: 140px;
+	height: 30px;
+	border: 1px solid #ddd;
+	line-height: 30px;
+	padding-left: 14px;
+	z-index: 20;
+	background: #fff;
+	position: relative;
+}
+.my_shopcar .iconfont{
+	color: #f70800;
+	font-size: 19px;
+}
+.my_shopcar span{
+	font-size: 14px;
+	padding-left: 3px;
+	color: #666;
+	padding-right: 15px;
+}
+.my_shopcar .hover_icon{
+	display: inline-block;
+	width: 13px;
+	height: 13px;
+	background: url(../images/change_psd/images/xiangxia_09.jpg) no-repeat center;
+}
+.my_shopcar .shopcar_num{
+	width: 22px;
+	height: 15px;
+	position: absolute;
+	border-radius: 30%;
+	background: #f70800;
+	top:-2px;
+	right: 25px;
+	color: #fff;
+	line-height: 15px;
+	text-align: center;
+}
+.hide_shopcar{
+	position: absolute;
+	width: 285px;
+	height: 80px;
+	border: 1px solid #ddd;
+	right: 0px;
+	top: 30px;
+	box-shadow: 0 0 3px rgba(0,0,0,0.2);
+	line-height: 80px;
+	text-align: center;
+	z-index: 1;
+	display: none;
+	background: #fff;
+}
+.my_shopcar_wrapper{
+	position: relative;
+	margin-top: 18px;
+}
+
+.nav_wrapper{
+	background: #f70800;
+	height: 40px;
+	margin-bottom: 10px;
+}
+.nav_l{
+	float: left;
+}
+.nav_l ul li{
+	float: left;
+	padding: 0 20px;
+}
+.nav_l ul li a{
+	color: #fff;
+	font-size: 15px;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+}
+.nav_detail{
+	float: right;
+	position: relative;
+}
+.nav_l ul li:first-child{
+	background: #bc0600;
+}
+.nav_l ul li:nth-child(2) a{
+	padding-left: 26px;
+	background: url("../images/public/images/icon-tv.png") no-repeat left center;
+}
+.nav_l ul li:hover{
+	background: rgb(226,7,0);
+}
+.nav_types:hover span{
+	background-position:  0 -133px;
+}
+.nav_types span{
+	width: 134px;
+	height: 40px;
+	display: block;
+	background: url(../images/public/images/searchbar.jpg) no-repeat center center;
+	background-position:  0 -65px;
+}
+.nav_hide{
+	position: absolute;
+	width: 1000px;
+	height: 249px;
+	border: 1px solid #f70800;
+	top: 40px;
+	right: -1px;
+	overflow: hidden;
+	display: none;
+	background: #fff;
+	z-index: 1;
+}
+.nav_hide dl{
+	width: 134px;
+	border-right: 1px solid #ededed;
+	float: left;
+	height: 249px;
+	padding: 0 13px;
+}
+.nav_hide dl:last-child{
+	border: none;
+}
+.nav_hide dl dt{
+	margin: 0 14px;
+	padding-left: 30px;
+	height: 50px;
+	line-height: 60px;
+	font-weight: bold;
+	text-align: left;
+	font-size: 15px;
+	border-bottom: 1px dotted #ccc;
+}
+.nav_hide dl:nth-of-type(1) dt{
+	background: url(../images/public/images/hidecon1.png) no-repeat left center;
+}
+.nav_hide dl:nth-of-type(2) dt{
+	background: url(../images/public/images/hidecon2.png) no-repeat left center;
+}
+.nav_hide dl:nth-of-type(3) dt{
+	background: url(../images/public/images/hidecon3.png) no-repeat left center;
+}
+.nav_hide dl:nth-of-type(4) dt{
+	background: url(../images/public/images/hidecon4.png) no-repeat left center;
+}
+.nav_hide dl:nth-of-type(5) dt{
+	background: url(../images/public/images/hidecon5.png) no-repeat left center;
+}
+.nav_hide dl:nth-of-type(6) dt{
+	background: url(../images/public/images/hidecon6.png) no-repeat left center;
+}
+.nav_hide dl:nth-of-type(1) dt:hover {
+	color: rgb(255,64,116);
+}
+.nav_hide dl:nth-of-type(2) dt:hover{
+	color: #49a2ff;
+}
+.nav_hide dl:nth-of-type(3) dt:hover{
+	color: rgb(102,188,9);
+}
+.nav_hide dl:nth-of-type(4) dt:hover{
+	color: #ff7c1c;
+}
+.nav_hide dl:nth-of-type(5) dt:hover{
+	color: rgb(255,64,116);
+}
+.nav_hide dl:nth-of-type(6) dt:hover{
+	color: #49a2ff;
+}
+.nav_hide dl dd{
+	padding-top: 5px;
+}
+.nav_hide dl dd a{
+	display: block;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	color: #333;
+}
+.nav_hide dl dd a:hover{
+	color: #f70800;
+}
+.main_wrapper{
+	background: #f6f6f6;
+}

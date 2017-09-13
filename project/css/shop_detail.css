@@ -1,0 +1,590 @@
+i,
+em {
+  font-style: normal;
+}
+#nav {
+  margin-bottom: 0;
+}
+.footer {
+  padding-bottom: 30px;
+}
+main {
+  width: 1000px;
+  min-height: 500px;
+  margin: 0 auto;
+}
+main .main_top .location {
+  height: 56px;
+  line-height: 56px;
+  border-bottom: 1px #e8e8e8 solid;
+}
+main .main_top .location a {
+  margin: 5px;
+}
+main .main_top .location a:hover {
+  text-decoration: underline;
+}
+main .main_top .shop_info {
+  margin-top: 20px;
+  height: 515px;
+}
+main .main_top .shop_info .si_l .stage {
+  position: relative;
+}
+main .main_top .shop_info .si_l .stage .mpic_area {
+  margin-bottom: 16px;
+  position: relative;
+}
+main .main_top .shop_info .si_l .stage .mpic_area ul {
+  height: 400px;
+}
+main .main_top .shop_info .si_l .stage .mpic_area ul li {
+  position: absolute;
+  display: none;
+  border: 1px solid #ededed;
+}
+main .main_top .shop_info .si_l .stage .mpic_area ul li img {
+  width: 400px;
+  height: 400px;
+}
+main .main_top .shop_info .si_l .stage .mpic_area .mask {
+  position: absolute;
+  border: 1px solid #666;
+  width: 88px;
+  height: 88px;
+  background: rgba(255, 255, 255, 0.3);
+}
+main .main_top .shop_info .si_l .stage .mpic_area .mpic_area_icon div {
+  position: absolute;
+}
+main .main_top .shop_info .si_l .stage .mpic_area .mpic_area_icon .tv_good {
+  width: 60px;
+  height: 62px;
+  top: 10px;
+  left: 8px;
+  background: url(../images/shop_detail/newbq.png) no-repeat;
+  background-position: 0 -54px;
+}
+main .main_top .shop_info .si_l .stage .mpic_area .mpic_area_icon .new_good {
+  width: 54px;
+  height: 54px;
+  background: url(../images/shop_detail/newbq.png) no-repeat;
+  background-position: 0 -257px;
+  top: 10px;
+  right: 8px;
+}
+main .main_top .shop_info .si_l .stage .mpic_area .mpic_area_icon .fdj {
+  width: 22px;
+  height: 22px;
+  background: url(../images/shop_detail/icons.png) no-repeat;
+  background-position: -57px -10px;
+  bottom: 10px;
+  right: 10px;
+}
+main .main_top .shop_info .si_l .stage .spic_area {
+  width: 402px;
+  position: relative;
+}
+main .main_top .shop_info .si_l .stage .spic_area ul {
+  overflow: hidden;
+  padding-left: 20px;
+}
+main .main_top .shop_info .si_l .stage .spic_area ul li {
+  float: left;
+  border: 1px #ededed solid;
+  margin: 0 5px;
+}
+main .main_top .shop_info .si_l .stage .spic_area ul li img {
+  width: 60px;
+  height: 60px;
+}
+main .main_top .shop_info .si_l .stage .spic_area .fl_btn div {
+  position: absolute;
+  width: 12px;
+  height: 15px;
+  top: 21px;
+  background: url(../images/shop_detail/icons.png);
+}
+main .main_top .shop_info .si_l .stage .spic_area .fl_btn .fl_btn_l {
+  left: 9px;
+  background-position: 0 -11px;
+}
+main .main_top .shop_info .si_l .stage .spic_area .fl_btn .fl_btn_r {
+  right: 9px;
+  background-position: -90px -11px;
+}
+main .main_top .shop_info .si_l .stage .bpic_area {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 402px;
+  top: 0;
+  z-index: 100;
+  overflow: hidden;
+  border: 1px solid #ededed;
+  display: none;
+}
+main .main_top .shop_info .si_l .stage .bpic_area ul li {
+  position: absolute;
+}
+main .main_top .shop_info .si_l .stage .bpic_area ul li img {
+  width: 800px;
+  height: 800px;
+}
+main .main_top .shop_info .si_l .hh {
+  margin-top: 20px;
+}
+main .main_top .shop_info .si_l .hh span {
+  color: #666;
+}
+main .main_top .shop_info .si_l .hh i {
+  float: left;
+  width: 15px;
+  height: 15px;
+  line-height: 15px;
+  background: url("../images/shop_detail/icons.png") no-repeat;
+}
+main .main_top .shop_info .si_l .hh .gz {
+  background-position: -71px -288px;
+}
+main .main_top .shop_info .si_l .hh .fx {
+  background-position: -71px -269px;
+}
+main .main_top .shop_info .si_l .hh a {
+  overflow: hidden;
+  padding: 0 20px 0 5px;
+}
+main .main_top .shop_info .si_r .brand a {
+  color: #666;
+  padding-left: 8px;
+  display: block;
+  height: 28px;
+  line-height: 28px;
+}
+main .main_top .shop_info .si_r .brand h3 {
+  font-size: 20px;
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 5px;
+}
+main .main_top .shop_info .si_r .price_area {
+  width: 563px;
+  border: 1px solid #ededed;
+  background: #fafafa;
+  padding: 25px 0 14px 0px;
+}
+main .main_top .shop_info .si_r .price_area .now_price {
+  height: 46px;
+}
+main .main_top .shop_info .si_r .price_area .now_price i {
+  font-size: 28px;
+  color: red;
+}
+main .main_top .shop_info .si_r .price_area span {
+  padding: 9px 17px 0 9px;
+  float: left;
+  height: 30px;
+}
+main .main_top .shop_info .si_r .price_area .act .act_detail p {
+  height: 25px;
+}
+main .main_top .shop_info .si_r .price_area .act .act_detail em {
+  padding: 0 10px;
+  float: left;
+  height: 19px;
+  line-height: 19px;
+  color: #fff;
+  background: red;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+main .main_top .shop_info .si_r .good_options {
+  margin-top: 15px;
+}
+main .main_top .shop_info .si_r .good_options span {
+  height: 26px;
+  float: left;
+  line-height: 26px;
+  margin-right: 18px;
+}
+main .main_top .shop_info .si_r .good_options .user_address {
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+main .main_top .shop_info .si_r .good_options .user_address .three_level_select {
+  padding-left: 12px;
+  height: 26px;
+  line-height: 26px;
+  width: 133px;
+  border: 1px solid #ededed;
+  margin-right: 12px;
+  float: left;
+}
+main .main_top .shop_info .si_r .good_options .user_address i {
+  color: red;
+}
+main .main_top .shop_info .si_r .good_options .good_color {
+  margin-bottom: 15px;
+}
+main .main_top .shop_info .si_r .good_options .good_color .good_color_img {
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #ededed;
+  float: left;
+}
+main .main_top .shop_info .si_r .good_options .good_color .good_color_img img {
+  width: 38px;
+  height: 38px;
+}
+main .main_top .shop_info .si_r .good_options .good_color .good_color_img i {
+  display: none;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 13px;
+  height: 13px;
+  background: url("../images/shop_detail/icons.png") no-repeat;
+  background-position: -71px -335px;
+}
+main .main_top .shop_info .si_r .good_options .good_size {
+  margin-bottom: 15px;
+}
+main .main_top .shop_info .si_r .good_options .good_size ul {
+  overflow: hidden;
+}
+main .main_top .shop_info .si_r .good_options .good_size ul li {
+  cursor: pointer;
+  float: left;
+  height: 26px;
+  border: 1px solid #ededed;
+  padding: 0 12px;
+  line-height: 26px;
+  margin-right: 8px;
+}
+main .main_top .shop_info .si_r .good_options .good_size ul li.on {
+  border-color: #ff004a;
+}
+main .main_top .shop_info .si_r .good_options .good_size ul .cm {
+  border: none;
+}
+main .main_top .shop_info .si_r .good_options .good_size ul .cm i {
+  float: left;
+  width: 17px;
+  height: 100%;
+  background: url(../images/shop_detail/icons.png) no-repeat -98px -282px;
+}
+main .main_top .shop_info .si_r .good_options .good_num {
+  margin-bottom: 30px;
+}
+main .main_top .shop_info .si_r .good_options .good_num .num_change {
+  cursor: pointer;
+}
+main .main_top .shop_info .si_r .good_options .good_num .num_change span {
+  padding: 0 10px;
+  height: 26px;
+  line-height: 26px;
+  border: 1px solid #ededed;
+  text-align: center;
+  float: left;
+  margin: 0;
+}
+main .main_top .shop_info .si_r .good_options .good_num .num_change .minus {
+  background: #f2f2f2;
+}
+main .main_top .shop_info .si_r .good_options .good_num .num_change .good_num_inter {
+  border-left: none;
+  border-right: none;
+  width: 50px;
+  padding: 0;
+}
+main .main_top .shop_info .si_r .good_options .add_shop_car {
+  overflow: hidden;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+main .main_top .shop_info .si_r .good_options .add_shop_car span {
+  height: 44px;
+  background: #ff504a;
+  border-radius: 5px;
+  float: left;
+  padding: 0 44px;
+  color: #fff;
+  line-height: 44px;
+  font-size: 14px;
+  margin-right: 0;
+}
+main .main_top .shop_info .si_r .good_options .logo_copy {
+  color: #666;
+  padding-left: 30px;
+  background: url(../images/shop_detail/icon_3.png) no-repeat left center;
+}
+main .main_top .baozheng {
+  margin-top: 32px;
+}
+main .main_below {
+  margin-top: 20px;
+}
+main .main_below .mb_l {
+  width: 790px;
+  min-height: 500px;
+  border: 1px solid #ededed;
+  position: relative;
+  padding-top: 44px;
+}
+main .main_below .mb_l .goods_menu {
+  position: absolute;
+  width: 100px;
+  z-index: 10;
+  top: -1px;
+}
+main .main_below .mb_l .goods_menu ul {
+  background: #f5f5f5;
+  width: 790px;
+  display: flex;
+}
+main .main_below .mb_l .goods_menu ul li {
+  float: left;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+  padding: 0 54px;
+  background: #f5f5f5;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+main .main_below .mb_l .goods_menu ul li.on {
+  background: #fff;
+  border-bottom: none;
+  color: #f70800;
+  border-top: 3px solid #f70800;
+  margin-top: -1px;
+}
+main .main_below .mb_l .goods_menu ul .kong {
+  flex: 1;
+  border-right: none;
+}
+main .main_below .mb_l .goods_menu ul .gm_int {
+  flex: 1;
+  width: 312px;
+  float: left;
+  left: 0;
+  height: 42px;
+  line-height: 42px;
+  padding: 0 13px 0 13px;
+  overflow: hidden;
+  border-bottom: 1px solid #ddd;
+  display: none;
+}
+main .main_below .mb_l .goods_menu ul .gm_int i {
+  font-size: 16px;
+  color: red;
+  padding-left: 5px;
+}
+main .main_below .mb_l .goods_menu ul .add_shop_car {
+  cursor: pointer;
+  width: 192px;
+  background: #ff504a;
+  display: none;
+  height: 43px;
+}
+main .main_below .mb_l .goods_menu ul .add_shop_car span {
+  height: 42px;
+  float: left;
+  padding: 0 44px;
+  color: #fff;
+  line-height: 42px;
+  font-size: 14px;
+}
+main .main_below .mb_l .goods_detail {
+  width: 730px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+main .main_below .mb_l .goods_detail .goods_detail_main .goods_detail_title {
+  width: 730px;
+  height: 30px;
+  background: url(../images/shop_detail/title-bg.png) no-repeat;
+  margin-bottom: 20px;
+}
+main .main_below .mb_l .goods_detail .goods_detail_main table {
+  width: 100%;
+}
+main .main_below .mb_l .goods_detail .goods_detail_main table td:first-child {
+  background: #fafafa;
+  height: 39px;
+  padding-left: 32px;
+}
+main .main_below .mb_l .goods_detail .goods_detail_main table td:last-child {
+  padding: 10px 0 ;
+  padding-left: 30px;
+  color: #666;
+}
+main .main_below .mb_l .goods_detail .goods_detail_main .goods_img_area {
+  padding-top: 30px;
+}
+main .main_below .mb_l .goods_detail .goods_detail_main .goods_img_area img {
+  display: block;
+  width: 730px;
+}
+main .main_below .mb_l .comment_area {
+  margin-top: 20px;
+}
+main .main_below .mb_l .comment_area .comment_title {
+  width: 730px;
+  height: 30px;
+  background: url(../images/shop_detail/title-bg.png) no-repeat 0 -30px;
+  margin-bottom: 20px;
+}
+main .main_below .mb_l .comment_area .comment_land .comment_menu {
+  background: #f5f5f5;
+  border: 1px #e5e5e5 solid;
+  height: 36px;
+  overflow: hidden;
+}
+main .main_below .mb_l .comment_area .comment_land .comment_menu li {
+  padding: 0 14px;
+  float: left;
+  line-height: 36px;
+  height: 36px;
+}
+main .main_below .mb_l .comment_area .comment_land .comment_menu span {
+  float: right;
+  height: 36px;
+  line-height: 36px;
+  padding-right: 15px;
+}
+main .main_below .mb_l .comment_area .comment_land .comment_menu input {
+  margin-right: 5px;
+  float: left;
+  margin-top: 13px;
+}
+main .main_below .mb_l .comment_area .comment_land .comment_body li {
+  border: 1px solid #e5e5e5;
+  border-top: none;
+  overflow: hidden;
+  padding: 35px 20px;
+}
+main .main_below .mb_l .comment_area .comment_land .comment_body li .cb_l p {
+  margin-bottom: 16px;
+}
+main .main_below .mb_l .comment_area .comment_land .comment_body li .cb_l span {
+  color: #666;
+}
+main .main_below .mb_l .comment_area .comment_land .comment_body li .cb_r p {
+  margin-bottom: 5px;
+}
+main .main_below .mb_l .comment_area .comment_land .comment_body li .cb_r span {
+  display: block;
+  width: 57px;
+  height: 12px;
+  background: url("../images/shop_detail/icons.png") no-repeat;
+  background-position: 0 -304px;
+}
+main .main_below .mb_l .comment_area .fanye {
+  margin-top: 10px;
+  cursor: pointer;
+}
+main .main_below .mb_l .comment_area .fanye div {
+  height: 23px;
+  border: 1px solid #e5e5e5;
+  line-height: 23px;
+  padding: 0 16px;
+}
+main .main_below .mb_l .comment_area .fanye .dqy {
+  margin: 0 10px;
+  padding: 0 8px;
+}
+main .main_below .mb_l .instruction {
+  margin-top: 40px;
+}
+main .main_below .mb_l .instruction .in_title {
+  width: 730px;
+  height: 30px;
+  background: url(../images/shop_detail/title-bg.png) no-repeat 0 -60px;
+  margin-bottom: 20px;
+}
+main .main_below .tl_goods {
+  margin: 20px 0;
+  border: 1px solid #ddd;
+  width: 790px;
+}
+main .main_below .tl_goods .tl_goods_title {
+  background: #f5f5f5;
+  height: 33px;
+  line-height: 33px;
+  padding-left: 18px;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+}
+main .main_below .tl_goods .tl_goods_title i {
+  border: 2px solid red;
+  margin-right: 10px;
+  float: left;
+  height: 10px;
+  margin-top: 10px;
+}
+main .main_below .tl_goods .tl_pic_area {
+  padding: 20px 0;
+  padding-left: 25px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+main .main_below .tl_goods .tl_pic_area li {
+  margin-right: 25px;
+  float: left;
+  width: 165px;
+}
+main .main_below .tl_goods .tl_pic_area li img {
+  width: 160px;
+  height: 170px;
+}
+main .main_below .tl_goods .tl_pic_area li p {
+  height: 40px;
+  line-height: 20px;
+  margin: 10px 0;
+}
+main .main_below .tl_goods .tl_pic_area li span {
+  font-size: 14px;
+  height: 14px;
+  color: red;
+}
+main .main_below .tl_goods .tl_pic_area li:last-child {
+  margin-right: 25px;
+  float: right;
+}
+main .main_below .mb_r {
+  width: 190px;
+  min-height: 500px;
+  border: 1px solid #ededed;
+  border-top: 2px solid #ff004a;
+}
+main .main_below .mb_r .mbr_title {
+  height: 40px;
+  line-height: 40px;
+  padding-left: 20px;
+  border-top: 2px solid #ededed;
+}
+main .main_below .mb_r .mbr_goods {
+  width: 150px;
+  margin: 0 auto;
+}
+main .main_below .mb_r .mbr_goods .mbrg_i {
+  width: 150px;
+  padding-bottom: 13px;
+  margin-top: 20px;
+  border-bottom: 1px dotted #ededed;
+}
+main .main_below .mb_r .mbr_goods .mbrg_i img {
+  width: 150px;
+  margin-bottom: 8px;
+}
+main .main_below .mb_r .mbr_goods .mbrg_i p {
+  line-height: 20px;
+}
+main .main_below .mb_r .mbr_goods .mbrg_i span {
+  display: block;
+  height: 28px;
+  line-height: 28px;
+  color: red;
+  font-size: 14px;
+}

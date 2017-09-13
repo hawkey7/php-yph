@@ -1,0 +1,193 @@
+
+.main{
+	overflow: hidden;
+	padding-left: 17px;
+	width: 968px;
+}
+
+.main_r{
+	width: 796px;
+	min-height: 1068px;
+	margin-bottom: 28px;
+	float: right;
+	background: #fff;
+}
+.main_r_top{
+	border-bottom: 2px #e50038 solid;
+	overflow: hidden;
+}
+.main_r_top p{
+	float: left;
+	height: 25px;
+	padding: 0 36px;
+	background: #e50038 url(../images/change_psd/images/bg1_03.jpg) no-repeat right top;
+	text-align: center;
+	color: #fff;
+	line-height: 25px;
+	font-weight: bold;
+	border-top-left-radius:3px;
+}
+.order_type{
+	margin-top: 2px;
+	border-bottom: 1px solid #ff6600;
+	margin-bottom: 5px;
+}
+.order_type ul{
+	overflow: hidden;
+}
+.order_type li{
+	float: left;
+	padding: 0 21px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	margin-right: 2px;
+	background: #f2f2f2;
+	cursor: pointer;
+}
+.order_type li:first-child{
+	background: #ff6600;
+	color: #fff;
+}
+
+.order_info{
+	background:  -webkit-linear-gradient(90deg,#f3f4f6,#fff);
+	border:1px solid #e6e6e6;
+}
+
+.order_info ul{
+	overflow: hidden;
+}
+.order_info ul li{
+	float:left;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	padding:0 20px;
+}
+.order_info .good_info{
+	padding: 0 100px;
+}
+.order_info .tr_status{
+	border:1px solid #e6e6e6;
+	width: 93px;
+	height: 23px;
+	line-height: 23px;
+	padding: 0;
+	background: #fff;
+	margin-top: 4px;
+}
+.order_detail{
+	margin: 13px 10px 48px 10px;
+	border:5px solid #e6e6e6;
+	height: 272px;
+}
+.order_detail p{
+	margin-top: 104px;
+	margin-left: 229px;
+	line-height: 38px;
+	height: 38px;
+	padding-left: 47px;
+	background: url(../images/my_order/images/shopcar_03.jpg) no-repeat left center;
+	color: #858585;
+}
+.order_detail p span{
+	color: #307fe8;
+}
+.act_fir{
+	margin: 15px 10px;
+}
+.act_title{
+	padding-bottom: 3px;
+	border-bottom:1px solid #ed1b66;
+}
+.act_detail_fir{
+	height: 215px;
+}
+.act_title span {
+	float: right;
+	margin-top: 15px;
+}
+.clipchar{
+	border:1px solid #dadada;
+	padding-top: 15px;
+	padding-left: 34px;
+	margin-top:11px;
+	padding-bottom: 43px;
+	position: relative;
+	height: 273px;
+}
+.pic_area{
+	overflow: hidden;
+	margin:0 auto;
+	height: 273px;
+}
+.pic_area li {
+	position: absolute;
+	overflow: hidden;
+	background: #fff;
+}
+.pic_area li div{
+	float: left;
+	margin-right: 15px;
+}
+.pic_area li div img{
+	border:1px solid #dadada;
+	width: 225px;
+	height: 225px;
+}
+.pic_area dt{
+	margin-bottom: 5px;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 225px;
+	text-overflow: ellipsis;
+}
+.pic_area del{
+	color: #666;
+}
+.pic_area span{
+	color: #eb0007;
+	font-size: 16px;
+}
+.pic_area dl a{
+	color: #fff;
+	float: right;
+	width: 80px;
+	height: 22px;
+	line-height: 22px;
+	background: #eb0007;
+	text-align: center;
+}
+.btn_bot{
+	position: absolute;
+	left: 358px;
+	bottom: 13px;
+}
+.btn_bot span{
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: #aaa;
+	float: left;
+	margin: 0 5px;
+}
+.btn_bot span.active{
+	background: #e40102;
+}
+.btn_side div{
+	width: 23px;
+	height: 45px;
+	position: absolute;
+	top: 140px;
+	cursor: pointer;
+	z-index: 2;
+}
+.btn_side_l{
+	left: 0;
+	background: #919191 url(../images/my_order/images/left.jpg) no-repeat center;
+}
+.btn_side_r{
+	right: 0;
+	background:#919191 url(../images/my_order/images/right_05.jpg) no-repeat center;
+}

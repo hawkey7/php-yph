@@ -1,0 +1,225 @@
+i,
+em {
+  font-style: normal;
+}
+.welland {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 18px;
+}
+.welland .wel_top {
+  overflow: hidden;
+  padding-bottom: 23px;
+}
+.welland .shop_car h3 {
+  font-weight: normal;
+  height: 36px;
+  line-height: 36px;
+  font-size: 14px;
+}
+.welland .shop_car .detail_area .info_detail {
+  min-height: 300px;
+  overflow: hidden;
+}
+.welland .shop_car .detail_area .info_type,
+.welland .shop_car .detail_area .info_detail {
+  color: #666;
+  background: #f2f2f2;
+  border: 1px solid #e8e8e8;
+}
+.welland .shop_car .detail_area .info_type ul,
+.welland .shop_car .detail_area .info_detail ul {
+  overflow: hidden;
+}
+.welland .shop_car .detail_area .info_type ul li,
+.welland .shop_car .detail_area .info_detail ul li {
+  height: 40px;
+  line-height: 40px;
+  width: 120px;
+  float: left;
+  text-align: center;
+}
+.welland .shop_car .detail_area .info_type ul li:first-child,
+.welland .shop_car .detail_area .info_detail ul li:first-child {
+  width: 51px;
+}
+.welland .shop_car .detail_area .info_type ul li:first-child input,
+.welland .shop_car .detail_area .info_detail ul li:first-child input {
+  display: block;
+  margin: 0 auto;
+  margin-top: 14px;
+}
+.welland .shop_car .detail_area .info_type ul .good_detail,
+.welland .shop_car .detail_area .info_detail ul .good_detail {
+  width: 455px;
+  overflow: hidden;
+}
+.welland .shop_car .detail_area .info_type .good_detail span {
+  float: left;
+  width: 100px;
+  text-align: left;
+}
+.welland .shop_car .detail_area .info_type .good_detail p {
+  float: left;
+}
+.welland .shop_car .detail_area .info_detail {
+  margin-bottom: 12px;
+  background: #fff;
+  border-top: none;
+}
+.welland .shop_car .detail_area .info_detail ul {
+  border-bottom: 1px solid #e8e8e8;
+}
+.welland .shop_car .detail_area .info_detail li {
+  padding-top: 53px;
+}
+.welland .shop_car .detail_area .info_detail .sum {
+  font-size: 15px;
+  font-weight: bold;
+  color: #666;
+}
+.welland .shop_car .detail_area .info_detail .del_good {
+  padding-top: 0;
+  cursor: pointer;
+  margin-top: 62px;
+  margin-left: 48px;
+  width: 19px;
+  height: 19px;
+  background: url(../images/shopCar/images/icons.png) no-repeat center;
+  background-position: -31px -125px;
+}
+.welland .shop_car .detail_area .info_detail .good_detail {
+  padding-top: 20px;
+  height: auto;
+  font-size: 13px;
+}
+.welland .shop_car .detail_area .info_detail .good_detail .good_des {
+  overflow: hidden;
+}
+.welland .shop_car .detail_area .info_detail .good_detail .good_des img {
+  border: #e8e8e8;
+  float: left;
+  margin: 0 13px 22px 0;
+  width: 78px;
+  height: 78px;
+}
+.welland .shop_car .detail_area .info_detail .good_detail .good_des span {
+  height: 16px;
+  line-height: 22px;
+  padding-bottom: 10px;
+  color: #666;
+  text-align: left;
+  display: block;
+}
+.welland .shop_car .detail_area .info_detail .good_detail p {
+  height: 24px;
+  line-height: 24px;
+  color: #666;
+  text-align: left;
+  padding-left: 20px;
+  background: url(../images/shopCar/images/gift_10.jpg) no-repeat left center;
+  display: block;
+}
+.welland .shop_car .detail_area .info_detail .cal_num {
+  padding-top: 65px;
+}
+.welland .shop_car .detail_area .info_detail .cal_num .cal_con {
+  overflow: hidden;
+  margin: 0 auto;
+  width: 60px;
+}
+.welland .shop_car .detail_area .info_detail .cal_num .cal_con i {
+  float: left;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  border: 1px solid #ddd;
+}
+.welland .shop_car .detail_area .info_detail .cal_num .cal_con .plus,
+.welland .shop_car .detail_area .info_detail .cal_num .cal_con .minus {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+.welland .shop_car .detail_area .pay_info {
+  padding: 20px;
+  border: 1px solid #e8e8e8;
+  overflow: hidden;
+}
+.welland .shop_car .detail_area .pay_info p {
+  text-align: right;
+  height: 26px;
+  line-height: 26px;
+}
+.welland .shop_car .detail_area .pay_info p span {
+  float: right;
+  text-align: right;
+  width: 104px;
+}
+.welland .shop_car .detail_area .pay_info p i {
+  float: right;
+  font-style: normal;
+}
+.welland .shop_car .detail_area .pay_info p b {
+  float: right;
+}
+.welland .shop_car .detail_area .pay_info p .price_sum {
+  font-size: 18px;
+  color: #ff504a;
+}
+.bottom {
+  width: 1000px;
+  height: 50px;
+  overflow: hidden;
+  margin: 0 auto;
+  background: #f2f2f2;
+  border-top: 1px solid #e8e8e8;
+}
+.bottom .qx {
+  float: left;
+  padding-left: 20px;
+  line-height: 50px;
+  height: 50px;
+  color: #666;
+}
+.bottom .qx input {
+  float: left;
+  margin-right: 14px;
+  margin-top: 20px;
+}
+.bottom .payoff {
+  float: right;
+  padding: 0 42px;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+  background: #ff504a;
+  font-weight: bold;
+  margin-left: 30px;
+  cursor: pointer;
+}
+.bottom .pay_info_last {
+  float: right;
+}
+.bottom .pay_info_last p {
+  height: 25px;
+  line-height: 25px;
+  overflow: hidden;
+}
+.bottom .pay_info_last p span {
+  padding: 0 12px;
+}
+.bottom .pay_info_last p span i {
+  color: #ff504a;
+  font-style: normal;
+}
+.bottom .pay_info_last p .sum_price {
+  float: right;
+  font-size: 16px;
+  color: #ff504a;
+}
+.bottom .pay_info_last p b {
+  float: right;
+  font-size: 14px;
+}

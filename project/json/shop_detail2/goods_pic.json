@@ -1,0 +1,43 @@
+{
+	"detail":[
+		{	
+			"id" : "pic1",
+			"src" : "../images/shop_detail2/ajax/1.jpg"
+		},
+		{	
+			"id" : "pic2",
+			"src" : "../images/shop_detail2/ajax/2.jpg"
+		},
+		{	
+			"id" : "pic3",
+			"src" : "../images/shop_detail2/ajax/3.jpg"
+		},
+		{	
+			"id" : "pic3-2",
+			"src" : "../images/shop_detail2/ajax/3-2.jpg"
+		},
+		{	
+			"id" : "pic4",
+			"src" : "../images/shop_detail2/ajax/4.jpg"
+		},
+		{	
+			"id" : "pic5",
+			"src" : "../images/shop_detail2/ajax/5.jpg"
+		}
+	],
+	"instruct":[
+		{	
+			"id" : "pic6",
+			"src" : "../images/shop_detail/ajax/26.jpg"
+		},
+		{	
+			"id" : "pic7",
+			"src" : "../images/shop_detail/ajax/27.jpg"
+		},
+		{	
+			"id" : "pic8",
+			"src" : "../images/shop_detail/ajax/28.jpg"
+		}
+	]
+
+}

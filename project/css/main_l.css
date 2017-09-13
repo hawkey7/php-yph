@@ -1,0 +1,108 @@
+.main_l_ajax{
+	overflow: hidden;
+	float: left;
+}
+.main_l{
+	width: 164px;
+	/*float: left;*/
+}
+.main_l .my_yph{
+	text-align: center;
+	color: #fff;
+	background: #eb0007;
+	font-size: 14px;
+	line-height: 32px;
+	height: 32px;
+}
+.my_id{
+	background: #ff8a50;
+	overflow: hidden;
+	padding-top: 16px;
+	height: 72px;
+	padding-left: 8px;
+}
+.my_hid{
+	padding-right: 8px;
+	float: left;
+}
+.my_level{
+	padding-top: 12px;
+}
+.my_id span{
+	color: #fff;
+	float: left;
+	padding-left: 5px;
+}
+
+.my_menu{
+	padding-top: 20px;
+	background: #fff;
+	margin-bottom: 1px;
+}
+.my_menu dt{
+	font-size: 13px;
+	font-weight: bold;
+	height: 15px;
+	line-height: 15px;
+	padding-bottom: 10px;
+	padding-left: 28px;
+}
+.my_menu dd{
+	line-height: 26px;
+	padding-left: 31px;
+}
+.my_menu dd:hover{
+	color: red;
+	cursor: pointer;
+}
+.ad_first{
+	margin-top: 9px;
+	padding-top: 9px;
+	text-align: center;
+	background: #fff;
+}
+.ad_first span{
+	display: block;
+	color: #f23d46;
+	margin-bottom: 8px;
+	font-weight: bold;
+	padding-bottom: 8px;
+}
+.ad_second{
+	margin-top: 9px;
+	margin-bottom: 8px;
+	padding: 13px 8px 13px 8px; 
+	text-align: center;
+	background: #fff;
+}
+.ad_second p{
+	background: #f4f4f4 url(../images/change_psd/images/dinggoudianhua_22.jpg) no-repeat left center;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+}
+.ad_second p i{
+	color: #eb0007;
+	font-style: normal;
+
+}
+.ad_second span{
+	display: block;
+	color: #eb0007;
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+.ad_second em{
+	padding-top: 5px;
+	display: block;
+	border-top: 1px solid #f6f6f6;
+}
+.ad_third{
+	background: #eb0007;
+	padding-left: 10px;
+	line-height: 33px;
+	height: 33px;
+	color: #fff;
+	font-weight: bold;
+}

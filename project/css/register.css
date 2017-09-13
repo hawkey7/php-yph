@@ -1,0 +1,171 @@
+
+i,em{
+	font-style: normal;
+}
+
+.welland{
+	width: 968px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+	position: relative;
+	min-height: 600px;
+}
+.welland>img {
+	position: absolute;
+}
+.EWM {
+    position: absolute;
+    top: 152px;
+    left: 50%;
+    margin: 0 0 0 -628px;
+}
+.land_logo{
+	width: 968px;
+	height: 112px;
+	overflow: hidden;
+}
+.land_logo_img{
+	margin-top: 43px;
+	height: 57px;
+	float: left;
+}
+.land_logo_img>a{
+	float: left;
+	height: 57px;
+}
+.land_logo_img span{
+	border-left: 1px #e3e3e3 solid;
+	float: left;
+	height: 57px;
+}
+.land_logo p{
+	margin-top: 73px;
+	font-size: 14px;
+}
+.land_logo p a{
+	color: #1F90D4;
+}
+.land_con{
+	margin-top: 5px;
+}
+.res_method ul li{
+	float: left;
+	height: 43px;
+	padding:0 75px;
+	line-height:43px;
+	color: #777;
+	font-size: 15px;
+	background: #f2f2f2; 
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.res_method ul li:first-child{
+	background: #ff8400;
+	color: #fff;
+}
+.land_con form{
+	width: 100%;
+	border: 1px #ff8400 solid;
+	padding: 45px 0 26px 112px;
+}
+.land_item{
+	height: 36px;
+	padding-bottom: 15px;
+	line-height: 36px;
+	position: relative;
+}
+.item_info{
+	float: left;
+	width: 350px;
+	height: 36px;
+	border: 1px solid #a2a2a2;
+}
+.yhm_text{
+	border: none;
+	height: 36px;
+	width: 300px;
+	padding-left: 8px;
+}
+.land_item span{
+	float: left;
+	width: 90px;
+	font-size: 14px;
+}
+.land_icon{
+	position: absolute;
+	left: 414px;
+	top: 6px;
+	width: 20px;
+	height: 20px;
+	background: url(../images/login/images/2017_09_02_21_57.28.bmp);
+}
+div.user_icon{
+	background: url(../images/login/images/2017_09_02_21_57.20.bmp);
+}
+.item_info2{
+	float: left;
+	width: 124px;
+	height: 36px;
+	border: 1px solid #a2a2a2;
+}
+.yzm_text{
+	border: none;
+	padding-left: 8px;
+	width: 250px;
+	height: 36px;
+}
+input.st{
+	width: 100px;
+}
+.tips{
+	float: left;
+	// border: 1px solid red;
+	border: 1px solid #d4d4d4;
+	height: 36px;
+	line-height: 36px;
+	padding-left: 5px;
+	width: 280px;
+	background: #eee;
+	// background: pink;
+	margin-left: 5px;
+	// color: red;
+	color: #666;
+	display: none;
+}
+.yzm_pic{
+	float: left;
+	padding: 3px;
+}
+.land_item em{
+	color: #1F90D4;
+	cursor: pointer;
+}
+.dx_yzm{
+	margin-left: 5px;
+	width: 116px;
+	height: 25px;
+	border: 1px solid #999;
+	background: #f2f2f2;
+	cursor: pointer;
+}
+
+
+.land_item2{
+	margin-left: 90px;
+}
+.land_item2 a{
+	color: #0089cf;
+}
+.land_item2 strong{
+	color: #eb0007;
+}
+#btn{
+	width: 127px;
+	height: 34px;
+	display: block;
+	background: #e50038;
+	color: #fff;
+	border: none;
+	margin: 30px 0 44px 0;
+	cursor: pointer;
+}

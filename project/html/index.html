@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<link rel="stylesheet" type="text/css" href="../css/iconfont_login/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="../css/public.css">
+	<link rel="stylesheet" type="text/css" href="../css/head_nav.css">
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+	<script type="text/javascript" src="../js/jquery-1.11.1.js"></script>
+	<script src="../js/cookie.js"></script>
+	<script src="../js/template.js"></script>
+	<!-- 品牌服装的模版引擎 -->
+	<script type="text/html" id="list_fir">
+		{{ each arr as value i }}
+			<li>
+				<a href="../html/shop_detail{{ arr[i].id }}.html">
+					<img src={{arr[i].src}} alt="">
+				</a>
+			</li>
+		{{/each}}
+	</script>
+	<!-- 全球尖货的模版引擎 -->
+	<script type="text/html" id="list_sed">
+		{{ each brr as value i }}
+			<li>
+				<div class="img_box">
+					<a href="../html/shop_detail{{ i }}.html">
+						<img src={{ brr[i].src }} alt="">
+					</a>
+				</div>
+				<p class="good_name">{{ brr[i].name }}</p>
+				<p class="good_des">{{ brr[i].des }}</p>
+				<div class="good_price clearfix">
+					<div class="zhijiang">直降</div>
+					<span>￥{{ brr[i].tejia }}</span>
+					<i>平日价<del>￥{{ brr[i].nprice }}</del></i>
+					<span class="pnum"><em>{{ brr[i].renshu }}人</em>已购买</span>
+				</div>
+			</li>
+		{{/each}}
+	</script>
+	<!-- 倒计时板块商品的模版引擎 -->
+	<script type="text/html" id="list_last">
+		{{ each crr as value i }}
+			<li class="lsc">
+				<span class="djs timer1">{{ crr[i].time }}</span>
+				<img src="{{ crr[i].src }}" alt="">
+			</li>
+		{{/each}}
+	</script>
+	<!-- 主轮播区域的模版引擎 -->
+	<script type="text/html" id="list_scroll">
+		{{ each drr as value i }}
+			<li>
+				<div class="bland_l l">
+					<img src="{{ drr[i].src }}" alt="">	
+				</div>
+				<div class="bland_r r">
+					<h2>{{ drr[i].name }}</h2>
+					<div class="sg_des">{{ drr[i].des }}</div>
+					<div class="sg_price">
+						<strong class="l">￥ {{drr[i].price}} </strong>
+						<div class="sg_price_other l">
+							<div class="zhijiang">直降</div>
+							<div class="zhijiang">包邮</div>
+							<span>平日价<del>￥{{ drr[i].nprice }} </del></span>
+						</div>
+					</div>
+					<div class="eval">
+						<div class="eval_l">
+						</div>
+						<div class="eval_r">
+							<p>186****7790</p>
+							<span>上次买的用完了</span>
+						</div>
+					</div>
+				</div>
+			</li>
+		{{/each}}
+	</script>
+	<!-- 主轮播区域下方小图模版引擎 -->
+	<script type="text/html" id="list_spic">
+		{{ each drr as value i }}
+			<li>
+				<img src="{{ drr[i].src }}" alt="">
+			</li>
+		{{/each}}
+	</script>
+
+</head>
+<body>
+<!-- top-begin -->
+	<div class="top">
+		<div class="top-nav borbot" >
+			<div class="webz clearfix" id="ajax_head">
+			</div>
+		</div>
+	</div>
+<!-- head-begin -->
+	<div class="head_nav_wrapper">
+	</div>
+<!-- banner begin -->
+	<div class="banner">
+		<ul class="scroll_banner">
+			<li><img src="../images/index/banner.jpg" alt=""></li>
+			<li><img src="../images/index/lbt.jpg" alt=""></li>
+		</ul>
+		<div class="banner_btn">
+			<span class="on"></span>
+			<span></span>
+		</div>
+		<div class="banner_fb">
+			<div class="bgb_l"></div>
+			<div class="bgb_r"></div>
+		</div>
+	</div>
+<!-- main begin -->
+	<div class="main_wrapper">
+		<div class="main">
+			<div class="main_first clearfix">
+				<div class="left_bot l">
+					<div class="today_logo">
+						<img src="../images/index/images/today_jx_03.jpg" alt="">
+					</div>
+					<div class="left_bot_bland">
+						<ul id="scroll_box">
+							<!-- 模版引擎插入 -->
+						</ul>
+					</div>
+					<div class="left_bot_sland">
+						<div class="red_mark">
+							<ul>
+								<li class="on"></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+						</div>
+						<ul class="spic_area clearfix">
+							<!-- 模版引擎插入 -->
+						</ul>
+					</div>
+					<div class="float_btn">
+						<div class="fb_l">
+						</div>
+						<div class="fb_r">
+						</div>
+					</div>
+				</div>
+				<div class="right_bot r">
+					<div class="you_pur">
+						<strong>优购物</strong>
+					</div>
+					<div class="qiang_gou clearfix">
+						<div class="qg_l l">
+							<img src="../images/index/img2/images/1490232604505531406.jpg" alt="">
+							<i></i>
+							<span></span>
+						</div>
+						<div class="qg_r">
+							<p>
+								双立人<br>AirtechIII烹饪煮压力
+							</p>
+							<em>￥2998</em>
+							<div class="time_left">距离结束&nbsp;<span id="f_djs">00:00:00</span></div>
+							<a href="#">立即抢购&nbsp;></a>
+						</div>
+					</div>
+					<div class="pre_zhibo">
+						<div class="yugao">
+							<p><em>24小时</em>直播预告</p>
+							<ul class="l_scroll">
+								<li class="lsc">
+									<span class="djs timer1">23:00</span>
+									<img src="../images/index/img2/1.jpg" alt="">
+								</li>
+								<!-- 模版引擎插入 -->
+							</ul>
+						</div>
+						<div class="yg_fb">
+							<div class="yg_fb_l">
+								<img src="../images/index/images/zuo2_10.jpg" alt="">
+							</div>
+							<div class="yg_fb_r"><img src="../images/index/images/you2_12.jpg" alt=""></div>
+						</div>
+					</div>
+					<ul class="zhibo_con">
+						<li>
+							<img src="../images/index/images/icon1_03.jpg" alt="">
+							<a href="#">TV直播间</a>
+						</li>
+						<li>
+							<img src="../images/index/images/icon2_05.jpg" alt="">
+							<a href="#">今日推荐</a>
+						</li>
+						<li >
+							<img src="../images/index/images/icon3_07.jpg" alt="">
+							<a href="#">热销榜单</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="main_second">
+				<article><img src="../images/index/cuxiao.jpg" alt=""></article>
+				<ul class="sale_pic">
+					<!-- 加入字符串模版导入数据 -->
+				</ul>
+			</div>
+			<div class="main_third">
+				<article><img src="../images/index/golbal_goods.jpg" alt=""></article>
+				<ul class="global_good_list">
+					<!-- 加入字符串模版导入数据 -->
+				</ul>
+			</div>
+		</div>
+	</div>
+<!-- footer开始 -->
+	<div class="footer">
+	</div> 
+<!-- footer结束 -->
+</body>
+</html>
+<script src="../js/public.js"></script>
+<script src="../js/public_nav.js"></script>
+<script src="../js/index.js"></script>

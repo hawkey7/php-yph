@@ -1,0 +1,66 @@
+
+.main{
+	overflow: hidden;
+	padding-left: 17px;
+	width: 968px;
+}
+
+.main_r{
+	width: 796px;
+	min-height: 1068px;
+	margin-bottom: 28px;
+	float: right;
+	background: #fff;
+}
+.main_r_top{
+	border-bottom: 2px #e50038 solid;
+	overflow: hidden;
+}
+.main_r_top p{
+	float: left;
+	height: 25px;
+	padding: 0 36px;
+	background: #e50038 url(../images/change_psd/images/bg1_03.jpg) no-repeat right top;
+	text-align: center;
+	color: #fff;
+	line-height: 25px;
+	font-weight: bold;
+	border-top-left-radius:3px;
+}
+.main_r form{
+	padding: 9px 11px;
+
+}
+.form_info {
+	border: 2px solid #e6e6e6;
+	height: 246px;
+	padding: 40px 0 66px 94px;
+}
+.text_info{
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.text_info span {
+	float: left;
+	text-align: right;
+	padding-right: 11px;
+	font-size: 14px;
+	height: 28px;
+	line-height: 28px;
+	width: 65px;
+}
+.text_info input{
+	height: 28px;
+	width: 263px;
+}
+#con_btn{
+	margin-left: 76px;
+	width: 88px;
+	height: 25px;
+	line-height: 25px;
+	background:#eb0007;
+	color: #fff;
+	text-align: center;
+	border:none;
+	cursor: pointer;
+}

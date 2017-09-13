@@ -1,0 +1,151 @@
+.welland{
+	width: 968px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+	position: relative;
+}
+.welland>img {
+	position: absolute;
+	
+}
+.EWM {
+    position: absolute;
+    top: 152px;
+    left: 50%;
+    margin: 0 0 0 -628px;
+}
+.land_logo{
+	width: 968px;
+	height: 112px;
+	overflow: hidden;
+}
+.land_logo_img{
+	margin-top: 31px;
+	height: 57px;
+	float: left;
+}
+.land_logo_img>a{
+	float: left;
+	height: 57px;
+}
+.land_logo_img span{
+	border-left: 1px #e3e3e3 solid;
+	float: left;
+	height: 57px;
+}
+.kefuphonenum{
+	margin-top: 72px;
+}
+.kefuphonenum a{
+	color: blue;
+}
+.kefuphonenum strong{
+	font-size: 15px;
+	color: #ee0007;
+}
+.land_con{
+	display: block;
+	width: 964px;
+	border:2px #ff8400 solid;
+}
+.land_con_l{
+	padding: 62px 0 0 133px;
+	width: 532px;
+	height: 208px;
+}
+.land_con_r{
+	padding: 58px 0 0 82px;
+    width: 217px;
+    background-color: #fff6ec;
+    height: 316px;
+}
+.land_item{
+	width: 351px;
+	height: 65px;
+}
+.land_con_r span{
+	display: inline-block;
+	line-height: 38px;
+	font-size: 15px;
+	color:#666;
+}
+.land_con_r a{
+	padding: 0 42px;
+	display: inline-block;
+	height: 28px;
+	line-height: 28px;
+	border:1px solid #ff8500;
+	border-radius: 5px;
+	color: #ff8500;
+}
+.land_con_l span{
+	display:block;
+	height: 12px;
+	padding-bottom: 7px;
+	color: #666;
+	font-size: 13px;
+}
+.yhm_text {
+    font: 13px Arial;
+    color: #222;
+    width: 315px;
+    padding: 5px 25px 5px 10px;
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid #a2a2a2;
+}
+.item-info{
+	position: relative;
+}
+.land_icon{
+    position: absolute;
+    top: 8px;
+    right: 9px;
+    z-index: 10;
+    width: 20px;
+    height: 20px;
+    background: url(../images/login/images/2017_09_02_21_57.20.bmp) no-repeat;
+}
+.yz2{
+	background: url(../images/login/images/2017_09_02_21_57.28.bmp) no-repeat;
+}
+.land_item2{
+	height: 30px;
+	width: 351px;
+}
+.land_item2 label.l{
+	padding-left: 5px;
+	line-height: 10px;
+}
+.land_item2 label.r a{
+	color: #0089cf;
+}
+.login-btn{
+	margin-top: 10px;
+	height: 37px;
+}
+.login-btn input{
+	width: 351px;
+    height: 37px;
+    background: #f11c44;
+	color: #fff;
+	font-size:15px;
+	line-height: 37px; 
+    border: none;
+    cursor: pointer;
+}
+.user_placehold{
+	color: #ccc;
+}
+.tips{
+	display: block;
+	position: absolute;
+	width: 344px;
+	height: 22px;
+	line-height: 22px;
+	background: #F7DEDE;
+	border: 1px solid #FC9F9F;
+	color: #666;
+ 	padding-left:5px;
+ 	display: none;
+}

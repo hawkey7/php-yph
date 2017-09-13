@@ -1,0 +1,131 @@
+{
+	"detail":[
+		{	
+			"id" : "pic1",
+			"src" : "../images/shop_detail/ajax/1.jpg"
+		},
+		{	
+			"id" : "pic2",
+			"src" : "../images/shop_detail/ajax/2.jpg"
+		},
+		{	
+			"id" : "pic3",
+			"src" : "../images/shop_detail/ajax/3.jpg"
+		},
+		{	
+			"id" : "pic3-2",
+			"src" : "../images/shop_detail/ajax/3-2.jpg"
+		},
+		{	
+			"id" : "pic4",
+			"src" : "../images/shop_detail/ajax/4.jpg"
+		},
+		{	
+			"id" : "pic5",
+			"src" : "../images/shop_detail/ajax/5.jpg"
+		},
+		{	
+			"id" : "pic6",
+			"src" : "../images/shop_detail/ajax/6.jpg"
+		},
+		{	
+			"id" : "pic7",
+			"src" : "../images/shop_detail/ajax/7.jpg"
+		},
+		{	
+			"id" : "pic8",
+			"src" : "../images/shop_detail/ajax/8.jpg"
+		},
+		{	
+			"id" : "pic9",
+			"src" : "../images/shop_detail/ajax/9.jpg"
+		},
+		{	
+			"id" : "pic10",
+			"src" : "../images/shop_detail/ajax/10.jpg"
+		},
+		{	
+			"id" : "pic11",
+			"src" : "../images/shop_detail/ajax/11.jpg"
+		},
+		{	
+			"id" : "pic11-1",
+			"src" : "../images/shop_detail/ajax/11-1.jpg"
+		},
+		{	
+			"id" : "pic12",
+			"src" : "../images/shop_detail/ajax/12.jpg"
+		},
+		{	
+			"id" : "pic13",
+			"src" : "../images/shop_detail/ajax/13.jpg"
+		},
+		{	
+			"id" : "pic14",
+			"src" : "../images/shop_detail/ajax/14.jpg"
+		},
+		{	
+			"id" : "pic15",
+			"src" : "../images/shop_detail/ajax/15.jpg"
+		},
+		{	
+			"id" : "pic16",
+			"src" : "../images/shop_detail/ajax/16.jpg"
+		},
+		{	
+			"id" : "pic17",
+			"src" : "../images/shop_detail/ajax/17.jpg"
+		},
+		{	
+			"id" : "pic18",
+			"src" : "../images/shop_detail/ajax/18.jpg"
+		},
+		{	
+			"id" : "pic19",
+			"src" : "../images/shop_detail/ajax/19.jpg"
+		},
+		{	
+			"id" : "pic20",
+			"src" : "../images/shop_detail/ajax/20.jpg"
+		},
+		{	
+			"id" : "pic21",
+			"src" : "../images/shop_detail/ajax/21.jpg"
+		},
+		{	
+			"id" : "pic22",
+			"src" : "../images/shop_detail/ajax/22.jpg"
+		},
+		{	
+			"id" : "pic23",
+			"src" : "../images/shop_detail/ajax/23.jpg"
+		},
+		{	
+			"id" : "pic23-1",
+			"src" : "../images/shop_detail/ajax/23-1.jpg"
+		},
+		{	
+			"id" : "pic24",
+			"src" : "../images/shop_detail/ajax/24.jpg"
+		},
+		{	
+			"id" : "pic25",
+			"src" : "../images/shop_detail/ajax/25.jpg"
+		}
+	],
+	"instruct":[
+		{	
+			"id" : "pic26",
+			"src" : "../images/shop_detail/ajax/26.jpg"
+		},
+		{	
+			"id" : "pic27",
+			"src" : "../images/shop_detail/ajax/27.jpg"
+		},
+		{	
+			"id" : "pic28",
+			"src" : "../images/shop_detail/ajax/28.jpg"
+		}
+	]
+
+}

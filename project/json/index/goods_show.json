@@ -1,0 +1,407 @@
+{	
+
+	"scroll":[
+		{	
+			"id" : "shop1",
+			"src" : "../images/index/images/b1.jpg",
+			"name" : "sansun太阳树 西班牙进口橄榄油·8瓶",
+			"des" : "好油吃了爽滑，不油，吃的舒坦",
+			"price" : "258",
+			"nprice" : "298"
+		},
+		{	
+			"id" : "shop2",
+			"src" : "../images/index/images/b2.jpg",
+			"name" : "华翠缘碧玉路路通吊坠",
+			"des" : "油润饱满，精雕细琢，大方美观",
+			"price" : "899",
+			"nprice" : "999"
+		},
+		{	
+			"id" : "shop3",
+			"src" : "../images/index/images/b3.jpg",
+			"name" : "HIGHCOOK韩库 蓝宝石系列炒锅32cm",
+			"des" : "韩国进口炒锅，升级32cm大容量，荷包蛋也像在打滑梯的无烟不粘炒锅· 升级变色控烟锅把手",
+			"price" : "259",
+			"nprice" : "298"
+		},
+		{	
+			"id" : "shop4",
+			"src" : "../images/index/images/b4.jpg",
+			"name" : "s滴露 泡沫洗手液樱桃250ML+225ML*2",
+			"des" : "泡沫洗手液，有趣有保障。樱桃精华，滋润倍护。质地清爽，易清洗，不粘腻",
+			"price" : "19",
+			"nprice" : "28"
+		},
+		{	
+			"id" : "shop5",
+			"src" : "../images/index/images/b5.jpg",
+			"name" : "滴露 超浓衣物除菌薰衣草700ml 3倍浓缩衣物消毒液与洗衣液、柔顺剂配合使用",
+			"des" : "",
+			"price" : "19",
+			"nprice" : "28"
+		},
+		{	
+			"id" : "shop6",
+			"src" : "../images/index/images/b6.jpg",
+			"name" : "滴露 薄荷冰爽沐浴露950g",
+			"des" : "清凉冰爽，可信赖的洗护品牌。",
+			"price" : "19",
+			"nprice" : "18"
+		},
+		{	
+			"id" : "shop7",
+			"src" : "../images/index/images/b7.jpg",
+			"name" : "一叶子 玫瑰亮肤面膜·72片",
+			"des" : "蕴含FRESH保湿精粹*和深层海水**，补充并锁住肌肤水分及养分",
+			"price" : "239",
+			"nprice" : "298"
+		}
+	],
+	"last":[
+		{	
+			"id" : "shop1",
+			"src" : "../images/index/img2/1.jpg",
+			"time" : "23:00"
+		},
+		{	
+			"id" : "shop2",
+			"src" : "../images/index/img2/2.jpg",
+			"time" : "23:00" 
+		},
+		{	
+			"id" : "shop3",
+			"src" : "../images/index/img2/3.jpg",
+			"time" : "13:00" 
+		},
+		{	
+			"id" : "shop4",
+			"src" : "../images/index/img2/4.jpg",
+			"time" : "3:00"
+		},
+		{	
+			"id" : "shop5",
+			"src" : "../images/index/img2/5.jpg",
+			"time" : "2:00"
+		},
+		{	
+			"id" : "shop6",
+			"src" : "../images/index/img2/6.jpg",
+			"time" : "2:00"
+		},
+		{	
+			"id" : "shop7",
+			"src" : "../images/index/img2/7.jpg",
+			"time" : "2:00"
+		},
+		{	
+			"id" : "shop8",
+			"src" : "../images/index/img2/8.jpg",
+			"time" : "2:00"
+		},
+		{	
+			"id" : "shop9",
+			"src" : "../images/index/img2/9.jpg",
+			"time" : "2:00"
+		},
+		{	
+			"id" : "shop10",
+			"src" : "../images/index/img2/10.jpg",
+			"time" : "2:00"
+		},
+		{	
+			"id" : "shop11",
+			"src" : "../images/index/img2/11.jpg",
+			"time" : "2:00"
+		},
+		{	
+			"id" : "shop12",
+			"src" : "../images/index/img2/12.jpg",
+			"time" : "2:00"
+		},
+		{	
+			"id" : "shop13",
+			"src" : "../images/index/img2/13.jpg",
+			"time" : "2:00"
+		},
+		{	
+			"id" : "shop14",
+			"src" : "../images/index/img2/14.jpg",
+			"time" : "2:00"
+		},
+		{	
+			"id" : "shop15",
+			"src" : "../images/index/img2/15.jpg",
+			"time" : "2:00"
+		},
+		{	
+			"id" : "shop16",
+			"src" : "../images/index/img2/16.jpg",
+			"time" : "2:00"
+		},
+		{	
+			"id" : "shop17",
+			"src" : "../images/index/img2/17.jpg",
+			"time" : "2:00"
+		},
+		{	
+			"id" : "shop18",
+			"src" : "../images/index/img2/18.jpg",
+			"time" : "2:00"
+		},
+		{	
+			"id" : "shop19",
+			"src" : "../images/index/img2/19.jpg",
+			"time" : "2:00"
+		},
+		{	
+			"id" : "shop20",
+			"src" : "../images/index/img2/20.jpg",
+			"time" : "2:00"
+		},
+		{	
+			"id" : "shop21",
+			"src" : "../images/index/img2/21.jpg",
+			"time" : "2:00"
+		},
+		{	
+			"id" : "shop22",
+			"src" : "../images/index/img2/22.jpg",
+			"time" : "2:00"
+		},
+		{	
+			"id" : "shop23",
+			"src" : "../images/index/img2/23.jpg",
+			"time" : "2:00"
+		},
+		{	
+			"id" : "shop24",
+			"src" : "../images/index/img2/24.jpg",
+			"time" : "2:00"
+		},
+		{	
+			"id" : "shop25",
+			"src" : "../images/index/img2/25.jpg",
+			"time" : "2:00"
+		},
+		{	
+			"id" : "shop26",
+			"src" : "../images/index/img2/26.jpg",
+			"time" : "2:00"
+		},
+		{	
+			"id" : "shop27",
+			"src" : "../images/index/img2/27.jpg",
+			"time" : "2:00"
+		},
+		{	
+			"id" : "shop28",
+			"src" : "../images/index/img2/28.jpg",
+			"time" : "2:00"
+		},
+		{	
+			"id" : "shop29",
+			"src" : "../images/index/img2/29.jpg",
+			"time" : "2:00"
+		}
+	],
+	"pinpai":[
+		{	
+			"id" : "shop1",
+			"src" : "../images/index/cuxiao1.jpg" 
+		},
+		{	
+			"id" : "shop2",
+			"src" : "../images/index/cuxiao2.jpg" 
+		},
+		{	
+			"id" : "shop3",
+			"src" : "../images/index/cuxiao3.jpg" 
+		},
+		{	
+			"id" : "shop4",
+			"src" : "../images/index/cuxiao4.jpg" 
+		},
+		{	
+			"id" : "shop5",
+			"src" : "../images/index/cuxiao5.jpg" 
+		},
+		{	
+			"id" : "shop6",
+			"src" : "../images/index/cuxiao6.jpg" 
+		}
+	],
+	"globle":[
+		{	
+			"id" : "shop1",
+			"src" : "../images/index/1.jpg",
+			"name" : "自然农法 双有机五常鲜胚芽香米·8袋",
+			"des" : "本款香米共8袋，每袋2.5kg，生长于黑龙江五常，自然有机种植，不施肥",
+			"tejia" : "288",
+			"nprice" : "298",
+			"renshu" : "4047"
+		},
+		{	
+			"id" : "shop2",
+			"src" : "../images/shop_detail/fdj/1.jpg",
+			"name" : "今昇定制伯爵水貂领绵羊皮羽绒服·黑色",
+			"des" : "",
+			"tejia" : "1980",
+			"nprice" : "2990",
+			"renshu" : "40"
+		},
+		{	
+			"id" : "shop3",
+			"src" : "../images/index/3.jpg",
+			"name" : "法国艾仕摩（ElsMorr）黑钻水貂大衣",
+			"des" : "",
+			"tejia" : "15800",
+			"nprice" : "19900",
+			"renshu" : "47"
+		},
+		{	
+			"id" : "shop4",
+			"src" : "../images/index/4.jpg",
+			"name" : "晓芹 海参超值抢购组·7袋70头",
+			"des" : "",
+			"tejia" : "999",
+			"nprice" : "1298",
+			"renshu" : "147"
+		},
+		{	
+			"id" : "shop5",
+			"src" : "../images/index/5.jpg",
+			"name" : "诺曼地 荣耀经典环饰豆豆鞋·红色",
+			"des" : "诺曼地豆豆鞋采用纯手工打造，穿着舒适，首次推出黑色和红色（伴有珠光皮质），是2017全新杂志款",
+			"tejia" : "598",
+			"nprice" : "698",
+			"renshu" : "1077"
+		},
+		{	
+			"id" : "shop6",
+			"src" : "../images/index/6.jpg",
+			"name" : "莱克碧云泉 前置复合滤芯+活性炭滤芯",
+			"des" : "莱克饮水机标配滤芯开售，已经购买使用6-8个月的朋友记得及时更换滤芯哦！健康饮水，定期更换滤芯~",
+			"tejia" : "256",
+			"nprice" : "298",
+			"renshu" : "123"
+		},
+		{	
+			"id" : "shop7",
+			"src" : "../images/index/7.jpg",
+			"name" : "怀山堂 铁棍山药红豆薏米粉·92条",
+			"des" : "本款商品选用山药、红豆和薏米，不含糖、添加剂和防腐剂，温补食养，即冲即饮，方便食用。",
+			"tejia" : "298",
+			"nprice" : "398",
+			"renshu" : "14047"
+		},
+		{	
+			"id" : "shop8",
+			"src" : "../images/index/8.jpg",
+			"name" : "一叶子 蜂王浆4D提拉面膜·42片",
+			"des" : "轻松拥有蛇精脸！紧致提拉面膜,成就上镜小V脸！随时随地不惧约会”通告“,告别自拍神器,让皮肤向上“飞”！",
+			"tejia" : "188",
+			"nprice" : "298",
+			"renshu" : "447"
+		},
+		{	
+			"id" : "shop9",
+			"src" : "../images/index/9.jpg",
+			"name" : "阿尔帝蒸食代澳洲牛肉罐头",
+			"des" : "",
+			"tejia" : "188",
+			"nprice" : "298",
+			"renshu" : "447"
+		},
+		{	
+			"id" : "shop10",
+			"src" : "../images/index/10.jpg",
+			"name" : "燕之坊养元八宝粉2桶",
+			"des" : "五谷变吃为喝 膳食合理配比营养均衡 8种原料研磨不含香精",
+			"tejia" : "148",
+			"nprice" : "198",
+			"renshu" : "147"
+		},
+		{	
+			"id" : "shop11",
+			"src" : "../images/index/11.jpg",
+			"name" : "福库 原装进口电压力饭煲",
+			"des" : "",
+			"tejia" : "1298",
+			"nprice" : "1298",
+			"renshu" : "61"
+		},
+		{	
+			"id" : "shop12",
+			"src" : "../images/index/12.jpg",
+			"name" : "头茬中宁枸杞·颗粒饱满个头十足",
+			"des" : "",
+			"tejia" : "298",
+			"nprice" : "298",
+			"renshu" : "14047"
+		},
+		{	
+			"id" : "shop13",
+			"src" : "../images/index/13.jpg",
+			"name" : "正典即食燕窝饮品组合",
+			"des" : "",
+			"tejia" : "889",
+			"nprice" : "998",
+			"renshu" : "123"
+		},
+		{	
+			"id" : "shop14",
+			"src" : "../images/index/14.jpg",
+			"name" : "攀高 PG-2601B8智能颈椎按摩仪无线遥控",
+			"des" : "颈椎按摩仪采用3D智能贴合技术,根据颈部曲线轻松调节电极",
+			"tejia" : "388",
+			"nprice" : "398",
+			"renshu" : "97"
+		},
+		{	
+			"id" : "shop15",
+			"src" : "../images/index/15.jpg",
+			"name" : "莱克 碧云泉免安装净水器尊享组",
+			"des" : "",
+			"tejia" : "2888",
+			"nprice" : "2298",
+			"renshu" : "537"
+		},
+		{	
+			"id" : "shop16",
+			"src" : "../images/index/16.jpg",
+			"name" : "Hush Puppies男士休闲套装·藏青",
+			"des" : "",
+			"tejia" : "398",
+			"nprice" : "498",
+			"renshu" : "404"
+		},
+		{	
+			"id" : "shop17",
+			"src" : "../images/index/17.jpg",
+			"name" : "好易点hooeasy 豪华型智能晾衣机",
+			"des" : "操作非常简单，融合智能控制尖端科技与数字感应技术",
+			"tejia" : "1999",
+			"nprice" : "2298",
+			"renshu" : "40"
+		},
+		{	
+			"id" : "shop18",
+			"src" : "../images/index/18.jpg",
+			"name" : "如水 盐焗腰果·600g*2",
+			"des" : "精选优质腰果，口感酥脆。烘焙工艺，非油炸，更健康。",
+			"tejia" : "208",
+			"nprice" : "298",
+			"renshu" : "88"
+		},
+		{	
+			"id" : "shop19",
+			"src" : "../images/index/19.jpg",
+			"name" : "创维 4K极清智能网络电视55英寸新",
+			"des" : "",
+			"tejia" : "2788",
+			"nprice" : "2898",
+			"renshu" : "18"
+		}
+	]
+}

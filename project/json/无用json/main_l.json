@@ -1,0 +1,50 @@
+<div class="main_l" id="main_l">
+	<div class="my_yph">
+		我的悠品惠
+	</div>
+	<div class="my_id">
+		<img src="../images/change_psd/images/yonghubeijing_14.jpg" alt="" class="my_hid">
+		<img src="../images/change_psd/images/huiyuanxunzhang_14.jpg" alt="" class="my_level">
+		<span>hawkey</span>
+	</div>
+	<dl class="my_menu">
+		<dt>订单中心</dt>
+		<dd>我的订单</dd>
+		<dd>我的评价</dd>
+		<dd>我的优惠券</dd>
+		<dd>我的收藏</dd>
+		<dd>我的浏览</dd>
+		<dd>我的试用</dd>
+	</dl>
+	<dl class="my_menu">
+		<dt>星级积分</dt>
+		<dd>会员星级</dd>
+		<dd>我的积分</dd>
+	</dl>
+	<dl class="my_menu">
+		<dt>账户信息</dt>
+		<dd>个人资料</dd>
+		<dd>安全设置</dd>
+		<dd>收货地址</dd>
+		<dd>我的消息</dd>
+		<dd>修改密码</dd>
+	</dl>
+	<div class="ad_first">
+		<p>网站自主下单</p>
+		<span>立减10元</span>
+	</div>
+	<div class="ad_second">
+		<p>订购热线<i>(免长途费)</i></p>
+		<span>400-707-0707</span>
+		<em>老会员按9键订购立减10元</em>
+	</div>
+	<div class="ad_third">
+		会员推荐
+	</div>
+	<script>
+		$(".main_l").find("dd").click(function(){
+			$(this).parent().parent().find("dd").css("background","#fff")
+			$(this).css("background","pink")
+		});
+	</script>
+</div>
